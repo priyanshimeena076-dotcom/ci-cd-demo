@@ -25,4 +25,4 @@ jobs:
       run: npm test
 
     - name: Run Cucumber Tests
-      run: npm run bdd
+      run: npx cucumber-js features/**/*.feature --require features/step_definitions/**/*.js
