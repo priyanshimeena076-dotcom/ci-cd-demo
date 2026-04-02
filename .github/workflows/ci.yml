@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 20
 
     - name: Install Dependencies
       run: npm install
@@ -25,4 +25,4 @@ jobs:
       run: npm test
 
     - name: Run Cucumber Tests
-      run: npx cucumber-js features/**/*.feature --require features/step_definitions/**/*.js
+      run: npm bdd run
