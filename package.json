@@ -7,7 +7,7 @@
   },
   "scripts": {
   "test": "jest",
-  "bdd": "cucumber-js features/**/*.feature --require steps/**/*.js"
+  "bdd": "cucumber-js features/**/*.feature --require features/step_definitions/**/*.js"
 },
   "keywords": [],
   "author": "",
