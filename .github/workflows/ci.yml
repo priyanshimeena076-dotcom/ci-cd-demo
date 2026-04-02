@@ -25,4 +25,4 @@ jobs:
       run: npm test
 
     - name: Run Cucumber Tests
-      run: npm bdd run
+      run: npm run bdd
